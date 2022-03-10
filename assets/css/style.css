@@ -1,0 +1,32 @@
+/* 
+  Reset
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+  Variables (custom proprieties for the projects)
+*/
+
+:root {
+  --primary-color: #d35649;
+  --primary-gray: #98a5a5;
+  --primary-blue: #509bd7;
+  --gray-footer: #1f1f1f;
+  --gray-footer-btn: #444;
+  --primary-purple: #575a89;
+  --light-gray: #eee;
+}
+
+html {
+  font-size: 62.5%; /* Change the default size 16px to 10px */
+}
+
+body {
+  font-size: 1.6rem; /* Rehanged the font size to 16px */
+  font-family: 'Lato', sans-serif;
+}
