@@ -23,29 +23,94 @@
     />
 
     <!-- custom css Link -->
-
     <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
     <title>[Events]</title>
   </head>
   <body>
     <nav class="navbar">
       <div class="container-fluid">
-        <div class="d-flex justify-content-between">
-          <a class="navbar-brand" href="index.html">
-            <img
-              src="assets/images/group-2.svg"
-              alt="Events brand logo"
-              width="100"
-              class="d-inline-block align-text-center"
-            />
-            <span class="text-dark fs-1">[Events]</span>
-          </a>
+        <div class="row w-100 align-items-center">
+          <div class="col">
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="assets/images/group-2.svg"
+                alt="Events brand logo"
+                width="100"
+                class="d-inline-block align-text-center"
+              />
+              <span class="text-white fs-1">[Events]</span>
+            </a>
+          </div>
 
-          <ul class="navbar-nav">
-            
+          <ul
+            class="navbar-nav col flex-row justify-content-end align-items-center"
+          >
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">
+                <i class="bi bi-search nav-icon"></i>
+                Search
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">
+                <i class="bi bi-person nav-icon"></i>
+                About
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">
+                <i
+                  class="bi bi-wifi nav-icon"
+                  style="transform: rotate(45deg); display: inline-block"
+                ></i>
+                <span class="align-text-bottom">Blog</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">
+                <i class="bi bi-list nav-icon"></i>
+                More
+              </a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
+
+    <main>
+      <header class="text-center d-flex flex-column">
+        <h1 class="mb-5 display-5 text-uppercase fw-bold text-white">
+          [Events]... your gateway to connect with events around your area
+        </h1>
+
+        <form action="" method="get" class="w-75 mx-auto">
+          <label class="form-label mb-5" for="event-search">
+            SEARCH EVENTS NEARBY
+          </label>
+
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              id="event-search"
+              placeholder="Insert your location here"
+            />
+            <button class="btn btn-primary btn-lg shadow-none">Search</button>
+          </div>
+        </form>
+
+        <button class="btn btn-lg custom-btn">How it works</button>
+      </header>
+    </main>
   </body>
 </html>
