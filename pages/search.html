@@ -89,7 +89,96 @@
     </nav>
 
     <main>
-      something here tomorrow
+      <section class="search-section">
+        <div class="container">
+          <h2 class="fw-bolder text-center mb-5 display-2" style="color: #98a5a5;">
+            Filter by location, host, subject, date, daytime:
+          </h2>
+
+          <div class="search-filter-box row align-items-end">
+            <div class="col-12 col-md mt-2 mt-lg-0">
+              <label for="location-filter-input" class="fw-bold">Location</label>
+              <input type="text" id="location-filter-input">
+            </div>
+
+            <div class="col-12 col-md-1 mt-2 mt-lg-0">
+              <label for="host-filter-input" class="fw-bold">Host</label>
+              <input type="text" id="host-filter-input">
+            </div>
+
+            <div class="col mt-2 mt-lg-0">
+              <label for="subject-filter-input" class="fw-bold">Subject</label>
+              <input type="text" id="subject-filter-input">
+            </div>
+
+            <div class="col mt-2 mt-lg-0">
+              <label for="initial-date-filter-input" class="fw-bold">Initial Date</label>
+              <input type="date" id="initial-date-filter-input">
+            </div>
+
+            <div class="col mt-2 mt-lg-0">
+              <label for="final-date-filter-input" class="fw-bold">Final Date</label>
+              <input type="date" id="final-date-filter-input">
+            </div>
+
+            <div class="col-md-1 col mt-2 mt-lg-0">
+              <label for="daytime-filter-input" class="fw-bold">Daytime</label>
+              <select name="" class="d-block" id="daytime-filter-input">
+                <option value="choose">Choose</option>
+              </select>
+            </div>
+
+            <div class="col d-flex justify-content-center mt-5 mt-lg-0" style="gap: 5%;">
+              <button class="btn btn-primary btn-lg">
+                Search
+              </button>
+
+              <button class="btn btn-warning btn-lg">
+                <i class="bi bi-journal-minus"></i>
+                Clear Filter
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-result" style="color: #98a5a5;">
+        <div class="container">
+          <h4 class="display-5 text-center fw-bold">
+            Search Result found 7 [Events] Nearby
+          </h4>
+
+          <div class="row mt-5">
+            <div class="col-12 col-md py-4">
+              <figure style="background-color: #d35649;" class="position-relative">
+                <img src="../assets/images/group-2.svg" alt="" class="img-fluid py-3" style="object-fit: cover;">
+                <figcaption class="text-white fs-1 position-absolute" style="top: 2%; left: 2%; text-shadow: 2px 2px rgba(255, 255, 255, 0.438);">
+                  go to [gathering] example
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-12 col-md py-4">
+              <figure style="background-color: #d35649;" class="position-relative">
+                <img src="../assets/images/group-2.svg" alt="" class="img-fluid py-3" style="object-fit: cover;">
+                <figcaption class="text-white fs-1 position-absolute" style="top: 2%; left: 2%; text-shadow: 2px 2px rgba(255, 255, 255, 0.438);">
+                  go to [gathering] example
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-12 col-md py-4">
+              <figure style="background-color: #d35649;" class="position-relative">
+                <img src="../assets/images/group-2.svg" alt="" class="img-fluid py-3" style="object-fit: cover;">
+                <figcaption class="text-white fs-1 position-absolute" style="top: 2%; left: 2%; text-shadow: 2px 2px rgba(255, 255, 255, 0.438);">
+                  go to [gathering] example
+                </figcaption>
+              </figure>
+            </div>
+          
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="text-white">
@@ -179,7 +268,7 @@
             </div>
 
             <div class="col text-center">
-              <h3 class="fw-bold mb-4">Subscribe</h3>
+              <h3 class="fw-bold mb-4">About</h3>
 
               <p class="simple-paragraph">
                 [Events] is an online platform that works to improve and

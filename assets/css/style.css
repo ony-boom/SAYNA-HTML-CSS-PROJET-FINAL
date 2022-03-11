@@ -84,8 +84,6 @@ nav .nav-item a,
   cursor: pointer;
 }
 
-/* Redefining btn style */
-
 .btn {
   height: 4.8rem;
   padding: 0 2.4rem;
@@ -93,14 +91,14 @@ nav .nav-item a,
   font-weight: 900;
 }
 
-.btn-primary {
+header .btn-primary {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
   text-transform: uppercase;
 }
 
-.btn-primary:hover,
-.btn-primary:active {
+header .btn-primary:hover,
+header .btn-primary:active {
   background-color: #ce4536;
   border-color: #ce4536;
 }
@@ -244,6 +242,27 @@ footer .navigation ul .geo-icon-item::after {
   color: #fff;
   border-radius: 1.3rem;
 }
+
+/* Search Page style */
+
+.search-section {
+  background-color: #eee;
+}
+
+.search-filter-box div[class^="col"] input, .search-filter-box select   {
+  padding: 5px 8px;
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  height: 4.8rem;
+  width: 100%;
+}
+
+/* Search Page style */
+
 
 @media screen and (max-width: 768px) {
   #event-search {
