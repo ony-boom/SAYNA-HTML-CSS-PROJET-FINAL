@@ -79,8 +79,13 @@ nav .nav-item a,
 }
 
 .navbar .navbar-nav .nav-item .text-white:hover,
-.social-link li:hover {
+footer .nav-link:hover {
   color: var(--primary-gray) !important;
+  cursor: pointer;
+}
+
+.social-link li:hover {
+  color: var(--primary-blue);
   cursor: pointer;
 }
 
@@ -205,6 +210,12 @@ footer .navigation ul .geo-icon-item::after {
   background-color: #070707;
 }
 
+footer .orange-link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+  color: var(--primary-color) !important;
+}
+
 .copyright-box {
   background-color: var(--gray-footer-btn);
   color: #eee;
@@ -262,6 +273,23 @@ footer .navigation ul .geo-icon-item::after {
 }
 
 /* Search Page style */
+
+/*
+  about page style
+*/
+
+#more-details-btn {
+  transition: all .3s;
+  text-decoration-color: transparent;
+}
+
+#more-details-btn:hover {
+  text-decoration-color: var(--primary-gray);
+}
+
+/*
+  about page style
+*/
 
 
 @media screen and (max-width: 768px) {
